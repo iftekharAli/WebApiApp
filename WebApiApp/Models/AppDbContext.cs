@@ -15,6 +15,7 @@ namespace WebApiApp.Models
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<Department> Departments { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Student>().HasIndex(x => x.Name);

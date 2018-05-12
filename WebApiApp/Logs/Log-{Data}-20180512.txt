@@ -403,3 +403,92 @@ FROM [Students] AS [s]" (0723d8ff)
 2018-05-12T09:43:03.3487072+06:00 0HLDNN9J1HQD4:00000004 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
 2018-05-12T09:43:03.3959937+06:00 0HLDNN9J1HQD4:00000004 [INF] Executed action "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" in 159.5818ms (afa2e885)
 2018-05-12T09:43:03.4184692+06:00 0HLDNN9J1HQD4:00000004 [INF] Request finished in 187.0987ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-12T16:26:12.9167841+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-12T16:26:14.0036331+06:00 0HLDNUB4QO3TC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/values   (ca22a1cb)
+2018-05-12T16:26:14.5210752+06:00 0HLDNUB4QO3TC:00000001 [INF] Executing action method "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-05-12T16:26:14.5261688+06:00 0HLDNUB4QO3TC:00000001 [INF] Hello i am in log action/ get action (9090885e)
+2018-05-12T16:26:14.5452052+06:00 0HLDNUB4QO3TC:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-12T16:26:14.7212301+06:00 0HLDNUB4QO3TC:00000001 [INF] Executed action "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" in 309.3465ms (afa2e885)
+2018-05-12T16:26:14.7766620+06:00 0HLDNUB4QO3TC:00000001 [INF] Request finished in 785.2405ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-12T16:26:16.1655520+06:00 0HLDNUB4QO3TC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:62223/favicon.ico   (ca22a1cb)
+2018-05-12T16:26:16.1903275+06:00 0HLDNUB4QO3TC:00000002 [INF] Request finished in 24.6616ms 200  (791a596a)
+2018-05-12T16:27:39.6093390+06:00 0HLDNUB4QO3TD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/Students/GetStudents?skip=1&take=1 application/json  (ca22a1cb)
+2018-05-12T16:27:39.8857304+06:00 0HLDNUB4QO3TD:00000001 [INF] Executing action method "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" with arguments (["1", "1", "Name", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-05-12T16:27:41.9971256+06:00 0HLDNUB4QO3TD:00000001 [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-12T16:27:42.3200394+06:00 0HLDNUB4QO3TD:00000001 [INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[Name], [s].[Phone]
+FROM [Students] AS [s]" (0723d8ff)
+2018-05-12T16:27:42.3627483+06:00 0HLDNUB4QO3TD:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-12T16:27:42.4119160+06:00 0HLDNUB4QO3TD:00000001 [INF] Executed action "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" in 2738.4649ms (afa2e885)
+2018-05-12T16:27:42.4392167+06:00 0HLDNUB4QO3TD:00000001 [INF] Request finished in 2829.8729ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-12T16:27:53.4525649+06:00 0HLDNUB4QO3TD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/Students/GetStudents?skip=1&take=1 application/json  (ca22a1cb)
+2018-05-12T16:27:53.5000015+06:00 0HLDNUB4QO3TD:00000002 [INF] Executing action method "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" with arguments (["1", "1", "Name", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-05-12T16:28:28.6136372+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-12T16:28:29.4343151+06:00 0HLDNUCD8R3DT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/values   (ca22a1cb)
+2018-05-12T16:28:29.7498455+06:00 0HLDNUCD8R3DT:00000001 [INF] Executing action method "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-05-12T16:28:29.7534063+06:00 0HLDNUCD8R3DT:00000001 [INF] Hello i am in log action/ get action (9090885e)
+2018-05-12T16:28:29.8006077+06:00 0HLDNUCD8R3DT:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-12T16:28:29.8948342+06:00 0HLDNUCD8R3DT:00000001 [INF] Executed action "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" in 220.5724ms (afa2e885)
+2018-05-12T16:28:29.9106322+06:00 0HLDNUCD8R3DT:00000001 [INF] Request finished in 480.5391ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-12T16:28:30.1193611+06:00 0HLDNUCD8R3DT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:62223/favicon.ico   (ca22a1cb)
+2018-05-12T16:28:30.1439762+06:00 0HLDNUCD8R3DT:00000002 [INF] Request finished in 24.6589ms 200  (791a596a)
+2018-05-12T16:28:42.6634122+06:00 0HLDNUCD8R3DT:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/Students/GetStudents?skip=1&take=1 application/json  (ca22a1cb)
+2018-05-12T16:28:42.8497659+06:00 0HLDNUCD8R3DT:00000003 [INF] Executing action method "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" with arguments (["1", "1", "Name", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-05-12T16:28:45.8135302+06:00 0HLDNUCD8R3DT:00000003 [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-12T16:28:45.8448526+06:00 0HLDNUCD8R3DT:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-12T16:28:46.1661738+06:00 0HLDNUCD8R3DT:00000003 [INF] Executed DbCommand ("70"ms) [Parameters=["@__p_0='?', @__p_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Phone]
+FROM [Students] AS [x]
+ORDER BY [x].[Name]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-05-12T16:28:46.2079401+06:00 0HLDNUCD8R3DT:00000003 [INF] Executed action "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" in 3486.6704ms (afa2e885)
+2018-05-12T16:28:46.2307315+06:00 0HLDNUCD8R3DT:00000003 [INF] Request finished in 3567.364ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-12T16:28:59.7542998+06:00 0HLDNUCD8R3DT:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/Students/GetStudents?skip=1&take=1&isAscending=false application/json  (ca22a1cb)
+2018-05-12T16:28:59.7982563+06:00 0HLDNUCD8R3DT:00000004 [INF] Executing action method "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" with arguments (["1", "1", "Name", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-05-12T16:29:03.9217808+06:00 0HLDNUCD8R3DT:00000004 [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-12T16:29:03.9474321+06:00 0HLDNUCD8R3DT:00000004 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-12T16:29:03.9914202+06:00 0HLDNUCD8R3DT:00000004 [INF] Executed DbCommand ("21"ms) [Parameters=["@__p_0='?', @__p_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Phone]
+FROM [Students] AS [x]
+ORDER BY [x].[Name] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-05-12T16:29:03.9950572+06:00 0HLDNUCD8R3DT:00000004 [INF] Executed action "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" in 4216.9809ms (afa2e885)
+2018-05-12T16:29:03.9971068+06:00 0HLDNUCD8R3DT:00000004 [INF] Request finished in 4242.8032ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-12T16:32:16.2194478+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-12T16:32:16.5502624+06:00 0HLDNUEGURA04:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/values   (ca22a1cb)
+2018-05-12T16:32:16.7109814+06:00 0HLDNUEGURA04:00000001 [INF] Executing action method "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-05-12T16:32:16.7133799+06:00 0HLDNUEGURA04:00000001 [INF] Hello i am in log action/ get action (9090885e)
+2018-05-12T16:32:16.7189305+06:00 0HLDNUEGURA04:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-12T16:32:16.7862465+06:00 0HLDNUEGURA04:00000001 [INF] Executed action "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" in 92.7693ms (afa2e885)
+2018-05-12T16:32:16.7941603+06:00 0HLDNUEGURA04:00000001 [INF] Request finished in 248.8623ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-12T16:32:17.0296526+06:00 0HLDNUEGURA04:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:62223/favicon.ico   (ca22a1cb)
+2018-05-12T16:32:17.0309176+06:00 0HLDNUEGURA04:00000002 [INF] Request finished in 1.2823ms 200  (791a596a)
+2018-05-12T16:35:45.8885946+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-12T16:35:46.2394213+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-12T16:35:54.4835654+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-12T16:35:54.7753708+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-12T16:35:54.8616727+06:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-12T16:35:54.8648218+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-12T16:35:54.8688087+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2018-05-12T16:35:54.8735186+06:00  [INF] Applying migration '"20180512103546_DepartmentAdded"'. (0e2ac64d)
+2018-05-12T16:35:54.8982538+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""ALTER TABLE [Students] ADD [DeparmentId] int NULL;" (0723d8ff)
+2018-05-12T16:35:54.9005795+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [Code] nvarchar(max) NULL,
+    [Name] nvarchar(max) NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);" (0723d8ff)
+2018-05-12T16:35:54.9030242+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Students_DeparmentId] ON [Students] ([DeparmentId]);" (0723d8ff)
+2018-05-12T16:35:54.9055344+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""ALTER TABLE [Students] ADD CONSTRAINT [FK_Students_Departments_DeparmentId] FOREIGN KEY ([DeparmentId]) REFERENCES [Departments] ([Id]) ON DELETE NO ACTION;" (0723d8ff)
+2018-05-12T16:35:54.9084298+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180512103546_DepartmentAdded', N'2.0.2-rtm-10011');" (0723d8ff)

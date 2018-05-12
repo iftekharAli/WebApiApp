@@ -25,11 +25,21 @@ namespace WebApiApp.Controllers
 
         [HttpGet]
         [Route("GetStudents")]
-        public IActionResult GetStudents()
+        public IActionResult GetStudents(int skip=0,int take=10,string orderByname = "Name",bool isAscending=true)
         {
-            var students = _context.Students.ToList();
-            return Ok(students);
-        }
+            IQueryable<Student> dbstudent = _context.Students.AsQueryable();
+            if (orderByname == "Name")
+            {
+                dbstudent = isAscending ? dbstudent.OrderBy(x => x.Name).AsQueryable() : dbstudent.OrderByDescending(x => x.Name).AsQueryable();
+            }
+            if (orderByname == "Phone")
+            {
+                dbstudent = isAscending ? dbstudent.OrderBy(x => x.Phone).AsQueryable() : dbstudent.OrderByDescending(x => x.Phone).AsQueryable();
+            }
+            dbstudent = dbstudent.Skip(skip).Take(take).AsQueryable();
+           // var students = _context.Students.ToList();
+            return Ok(dbstudent);
+        } 
 
         [HttpPost]
         [Route("SaveStudent")]
