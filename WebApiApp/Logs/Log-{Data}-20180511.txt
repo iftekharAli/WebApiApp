@@ -1,0 +1,121 @@
+2018-05-11T11:01:03.1991543+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T11:01:03.2326836+06:00  [INF] Creating key {b971da49-4f85-4aed-8a6b-015da11d7b5b} with creation date 2018-05-11 05:01:03Z, activation date 2018-05-11 05:01:03Z, and expiration date 2018-08-09 05:01:03Z. (77afce94)
+2018-05-11T11:01:03.2983949+06:00  [INF] Writing data to file '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-b971da49-4f85-4aed-8a6b-015da11d7b5b.xml"'. (da22a8b1)
+2018-05-11T11:01:04.1516822+06:00 0HLDMVGP9G81G:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/values   (ca22a1cb)
+2018-05-11T11:01:04.8194667+06:00 0HLDMVGP9G81G:00000001 [INF] Executing action method "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-05-11T11:01:07.6985151+06:00 0HLDMVGP9G81G:00000001 [INF] Hello i am in log action/ get action (9090885e)
+2018-05-11T11:01:09.0918971+06:00 0HLDMVGP9G81G:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-11T11:01:09.1926228+06:00 0HLDMVGP9G81G:00000001 [INF] Executed action "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" in 4481.9476ms (afa2e885)
+2018-05-11T11:01:09.2122850+06:00 0HLDMVGP9G81G:00000001 [INF] Request finished in 5071.9632ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-11T11:01:09.4153920+06:00 0HLDMVGP9G81G:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:62223/favicon.ico   (ca22a1cb)
+2018-05-11T11:01:09.4194923+06:00 0HLDMVGP9G81G:00000002 [INF] Request finished in 4.1647ms 200  (791a596a)
+2018-05-11T11:01:47.9841347+06:00 0HLDMVGP9G81G:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/values   (ca22a1cb)
+2018-05-11T11:01:48.0250460+06:00 0HLDMVGP9G81G:00000003 [INF] Executing action method "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-05-11T11:01:49.1105436+06:00 0HLDMVGP9G81G:00000003 [INF] Hello i am in log action/ get action (9090885e)
+2018-05-11T11:01:49.1133573+06:00 0HLDMVGP9G81G:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-11T11:01:49.1358149+06:00 0HLDMVGP9G81G:00000003 [INF] Executed action "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" in 1127.8308ms (afa2e885)
+2018-05-11T11:01:49.1406477+06:00 0HLDMVGP9G81G:00000003 [INF] Request finished in 1156.4115ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-11T11:01:49.3866027+06:00 0HLDMVGP9G81G:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:62223/favicon.ico   (ca22a1cb)
+2018-05-11T11:01:49.3942385+06:00 0HLDMVGP9G81G:00000004 [INF] Request finished in 7.1604ms 200  (791a596a)
+2018-05-11T12:05:19.4564697+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:05:19.8344234+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:05:31.2740339+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:05:31.4971989+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:07:27.8760471+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:07:28.0972490+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:08:04.0220641+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:08:04.2402964+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:08:35.7758981+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:08:35.9946365+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:09:29.3825703+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:09:29.5950469+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:11:10.6890186+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:11:10.8972448+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:11:21.3003983+06:00  [INF] Executed DbCommand ("289"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [CoreWebApiAppDb];" (0723d8ff)
+2018-05-11T12:11:21.3961181+06:00  [INF] Executed DbCommand ("93"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CoreWebApiAppDb] SET READ_COMMITTED_SNAPSHOT ON;');" (0723d8ff)
+2018-05-11T12:11:21.4319509+06:00  [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);" (0723d8ff)
+2018-05-11T12:11:21.4357760+06:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-11T12:11:21.4378745+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2018-05-11T12:11:21.4415604+06:00  [INF] Applying migration '"20180511060519_Initial"'. (0e2ac64d)
+2018-05-11T12:11:21.4518747+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Students] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(450) NULL,
+    [Phone] nvarchar(max) NULL,
+    CONSTRAINT [PK_Students] PRIMARY KEY ([Id])
+);" (0723d8ff)
+2018-05-11T12:11:21.4549859+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX [IX_Students_Name] ON [Students] ([Name]) WHERE [Name] IS NOT NULL;" (0723d8ff)
+2018-05-11T12:11:21.4566067+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180511060519_Initial', N'2.0.2-rtm-10011');" (0723d8ff)
+2018-05-11T12:21:03.8415933+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:21:04.1135524+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:29:46.2392412+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:29:46.4696959+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:29:54.7062722+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:29:54.9231253+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:29:54.9978168+06:00  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-11T12:29:55.0007983+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-11T12:29:55.0051151+06:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2018-05-11T12:29:55.0088923+06:00  [INF] Applying migration '"20180511062946_IdModify"'. (0e2ac64d)
+2018-05-11T12:31:53.1781651+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:32:27.6473776+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:32:27.8757250+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:32:39.8297292+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:32:40.0509952+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:32:40.1205572+06:00  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-11T12:32:40.1233574+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-11T12:32:40.1264136+06:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2018-05-11T12:32:40.1304298+06:00  [INF] Applying migration '"20180511062946_IdModify"'. (0e2ac64d)
+2018-05-11T12:33:03.9806739+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:33:04.1989074+06:00  [INF] Entity Framework Core "2.0.2-rtm-10011" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-05-11T12:33:04.2654777+06:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-11T12:33:04.2683486+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-11T12:33:04.2711116+06:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2018-05-11T12:33:04.2742855+06:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2018-05-11T12:41:28.5213936+06:00  [INF] User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2018-05-11T12:41:29.1463986+06:00 0HLDN18ST3UUJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/values   (ca22a1cb)
+2018-05-11T12:41:29.4596566+06:00 0HLDN18ST3UUJ:00000001 [INF] Executing action method "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-05-11T12:41:41.5551271+06:00 0HLDN18ST3UUJ:00000001 [INF] Hello i am in log action/ get action (9090885e)
+2018-05-11T12:41:41.6116576+06:00 0HLDN18ST3UUJ:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-11T12:41:41.6156537+06:00  [WRN] Heartbeat took longer than "00:00:01" at "05/11/2018 06:41:41 +00:00". (439152bf)
+2018-05-11T12:41:41.7219635+06:00 0HLDN18ST3UUJ:00000001 [INF] Executed action "WebApiApp.Controllers.ValuesController.Get (WebApiApp)" in 12341.6475ms (afa2e885)
+2018-05-11T12:41:41.7316149+06:00 0HLDN18ST3UUJ:00000001 [INF] Request finished in 12588.2093ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-11T12:41:42.0472599+06:00 0HLDN18ST3UUJ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:62223/favicon.ico   (ca22a1cb)
+2018-05-11T12:41:42.0753100+06:00 0HLDN18ST3UUJ:00000002 [INF] Request finished in 27.9845ms 200  (791a596a)
+2018-05-11T12:42:16.2336736+06:00 0HLDN18ST3UUJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:62223/api/Students/GetStudents application/json  (ca22a1cb)
+2018-05-11T12:42:16.2739608+06:00 0HLDN18ST3UUJ:00000003 [INF] Executing action method "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-05-11T12:42:16.2977581+06:00 0HLDN18ST3UUJ:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-05-11T12:42:16.3324805+06:00 0HLDN18ST3UUJ:00000003 [INF] Executed action "WebApiApp.Controllers.StudentsController.GetStudents (WebApiApp)" in 75.5863ms (afa2e885)
+2018-05-11T12:42:16.3542748+06:00 0HLDN18ST3UUJ:00000003 [INF] Request finished in 120.5838ms 200 application/json; charset=utf-8 (791a596a)
+2018-05-11T12:42:34.9622234+06:00 0HLDN18ST3UUJ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:62223/   (ca22a1cb)
+2018-05-11T12:42:34.9843812+06:00 0HLDN18ST3UUJ:00000004 [INF] Request finished in 22.1834ms 200  (791a596a)
+2018-05-11T12:42:35.1476521+06:00 0HLDN18ST3UUJ:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:62223/favicon.ico   (ca22a1cb)
+2018-05-11T12:42:35.1723838+06:00 0HLDN18ST3UUJ:00000005 [INF] Request finished in 24.6917ms 200  (791a596a)
