@@ -14,22 +14,20 @@ namespace WebApiApp.Controllers
     public class StudentsController : Controller
     {
         private  ILogger _logger;
+        private AppDbContext _context;
 
-        public StudentsController(ILoggerFactory factory)
+
+        public StudentsController(ILoggerFactory factory,AppDbContext db)
         {
             _logger = factory.CreateLogger<StudentsController>();
+            _context = db;
         }
 
         [HttpGet]
         [Route("GetStudents")]
         public IActionResult GetStudents()
         {
-            List<Student> students = new List<Student>()
-            {
-                new Student(){Id=1,Name = "NahiYan1",Phone = "8801622595291"},
-                new Student(){Id=2,Name = "NahiYan2",Phone = "8801622595292"},
-                new Student(){Id=3,Name = "NahiYan3",Phone = "8801622595293"},
-            };
+            var students = _context.Students.ToList();
             return Ok(students);
         }
 
@@ -37,15 +35,43 @@ namespace WebApiApp.Controllers
         [Route("SaveStudent")]
         public IActionResult SaveStudent([FromBody] Student student)
         {
-            student.Id = 4;
+            //model validation
+            _context.Students.Add(student);
+            _context.SaveChanges();
             return Ok(student);
 
         }
 
+        [HttpPut]
+        [Route("EditStudent")]
+        public IActionResult EditStudent([FromBody] Student student)
+        {
+            var update = _context.Set<Student>().Update(student);
+            _context.SaveChanges();
+            //var find = _context.Students.Find(student.Id);
+            //if (find == null)
+            //{
+            //    return NotFound("Student Not Found");
+            //}
+
+            //find.Name = student.Name;
+            //find.Phone = student.Phone;
+            _context.SaveChanges();
+            return Ok(true);
+        }
         [HttpDelete]
         [Route("DeleteStudent")]
-        public IActionResult DeleteStudent(string id)
+        public IActionResult DeleteStudent(int id)
         {
+            Student student = _context.Students.Find(id);
+            if (student == null)
+            {
+                return NotFound("Object not found");
+            }
+
+            _context.Students.Remove(student);
+            _context.SaveChanges();
+      
             return Ok(id);
         }
     }
